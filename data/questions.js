@@ -129,6 +129,17 @@ const questions = [
     ],
     image: require('../assets/images/question11.jpg'),
   },
+   {
+    questionText: 'Partia „Za wolność” złożyła propozycję ustawy o związkach partnerskich. Pozwoli ona m.in. na uroczyste sformalizowanie związków homo i heteroseksualnych (pozwoli przyjąć wspólne nazwisko, przysposobić dziecko partnera, nabyć prawo np. do majątku po partnerze).
+',
+    answers: [
+      { text: 'Poprzyj projekt', points: { finanse: -10, popularnosc: 10, obrona: 0, dyplomacja: -5 } },
+      { text: 'Zaproponuj w zamian ustawę, o osobie najbliższej (pozwoli na odbieranie korespondencji partnera)', points: { finanse: -5, popularnosc: 5, obrona: 0, dyplomacja: 10 } },
+      { text: 'Odeślij ustawę do poprawki - zaprotestuj przeciwko przysposabianiu dzieci przez homoseksualistów', points: { finanse: -10, popularnosc: -5, obrona: 0, dyplomacja: 0 } },
+      { text: 'Skrytykuj ustawę jako symbol zgorszenia i zepsucia ideologicznego', points: { finanse: 0, popularnosc: -10, obrona: 0, dyplomacja: -5 } },
+    ],
+    image: require('../assets/images/question1.jpg'),
+  },
 
 ]
 
