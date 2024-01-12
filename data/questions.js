@@ -148,6 +148,16 @@ const questions = [
     ],
     image: require('../assets/images/question14.jpg'),
   },
+ {
+    questionText: 'PZPN chce większego finansowania (1 miliard PLN), w zamian obiecuje że nasi piłkarze pojadą na mundial',
+    answers: [
+      { text: 'Daj 2 miliardy i pochwal się tym w mediach społecznościowych', points: { finanse: -5, popularnosc: +5, obrona: -2, dyplomacja: -5 } },
+      { text: 'Daj 1 miliard PLN', points: { finanse: -3, popularnosc: +3, obrona: -1, dyplomacja: -3 } },
+      { text: 'Daj 500 milionów PLN', points: { finanse: -1, popularnosc: +1, obrona: 0, dyplomacja: 0 } },
+      { text: 'Nic nie dostaną koniec finansowania piłki nożnej z budżetu Państwa', points: { finanse: +5, popularnosc: -5, obrona: 0, dyplomacja: +1 } },
+    ],
+    image: require('../assets/images/question14.jpg'),
+  },
 
 
 ]
